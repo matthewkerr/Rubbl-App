@@ -1,0 +1,41 @@
+.Header {
+    height: 78px;
+    z-index: 5;
+    z-index: 9999;
+    position: relative;
+}
+
+.Header .headerContainer {
+    position: relative;
+    z-index: 10
+}
+
+.Header .headerBar {
+    padding: 6px 0;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto
+}
+
+.Header .logoContainer {
+    height: 31px;
+    width: 100%;
+    visibility: visible;
+    opacity: 1
+}
+
+.Header .logo {
+    color: transparent;
+    font: 0/0 sans-serif;
+    margin: 12px 0 0 -58px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-indent: -9999px;
+    z-index: 2;
+    background-image: url(https://s.dspncdn.com/a1/webapp/img/ui/sprites/desktop1x-s9c54cbafc4.png);
+    background-position: 0 -32px;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 116px
+}

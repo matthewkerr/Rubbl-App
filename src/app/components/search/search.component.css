@@ -1,0 +1,197 @@
+
+/* Bootstrap 4 text input with search icon */
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background: #e8e8e8;
+}
+
+.input-group {
+    padding: 5px 32px 6px 33px;
+}
+
+.input-group-btn.input-space {
+  padding-left: 3px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 9999;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #808080;
+    font-weight: bold;
+}
+:-moz-placeholder { /* older Firefox*/
+    font-size:16px;
+    color: #808080;
+    font-weight: bold;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+    font-size: 16px;
+    color: #808080; 
+    font-weight: bold;
+} 
+:-ms-input-placeholder { 
+    font-size: 16px; 
+    color: #808080;
+    font-weight: bold;
+}
+
+input[type="text"], textarea, button {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+.search {
+    font-weight: bold;
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+.suggestTitle {
+    color: #b9b9b9;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 11px;
+    margin-left: 0
+}
+
+.searchSuggestions {
+    position:relative;
+    display: block;
+    margin: 5px auto 0;
+    z-index: 7000;
+}
+
+.searchSuggestions .searchSuggestionAligner .searchSuggestionContainer ul {
+    list-style-type: none;
+    position:relative;
+    z-index: 8000;
+    padding-left: 0;
+}
+
+.searchSuggestions .searchSuggestionAligner .searchSuggestionContainer ul li{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -.018em;
+    line-height: 33px;
+    color: #000;
+
+}
+
+.searchSuggestions .searchSuggestionAligner .searchSuggestionContainer ul li .light {
+    color:  #b9b9b9 !important;
+}
+
+.searchSuggestionAligner {
+    background: #fff
+}
+
+.suggestionTray {
+    display: block;
+    height: 200px;
+    max-width: 600px;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    z-index: 8000;
+}
+
+.searchSuggestionContainer {
+    background: #fff;
+    display: block;
+    margin-top: 10px;
+    height:250px;
+    padding: 20px 44px 48px
+}
+
+.suggestGradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .99)), color-stop(36%, rgba(255, 255, 255, .624)), color-stop(40%, rgba(255, 255, 255, .58)), color-stop(60%, rgba(255, 255, 255, .37)), color-stop(80%, rgba(255, 255, 255, .15)), to(rgba(255, 255, 255, .01)));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .99) 0, rgba(255, 255, 255, .624) 36%, rgba(255, 255, 255, .58) 40%, rgba(255, 255, 255, .37) 60%, rgba(255, 255, 255, .15) 80%, rgba(255, 255, 255, .01) 100%);
+    display: block;
+    height: 300px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.loginHeaderButton,
+.signupHeaderButton {
+    border-radius: 4px;
+    display: block;
+    height: 35px;
+    float: left;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 9px;
+    padding: 0 13px;
+    color: #aaa;
+}
+
+.signupHeaderButton {
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    margin-left: 7px;
+    min-width: 75px
+}
+
+.signupHeaderButton.signupTrigger {
+    background: #1d8ffb;
+    border: 1px solid #1d8ffb;
+    color: #fff
+}
+
+.signupHeaderButton.loginTrigger {
+    color: #fff;
+    color: #aaa;
+}
+
+.more {
+    background: #e8e8e8;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    margin-left: 7px;
+    overflow: hidden;
+    position: relative;
+    width: 35px;
+    z-index: 51;
+    
+}
+
+.dropdownTrigger {
+    border-radius: 3px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 33px;
+    text-align: center;
+    font-weight: 700;
+    width: 33px;
+    color: #aaa;
+    line-height: -10px;
+}
+
+.btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+
+}
+
+
+

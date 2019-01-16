@@ -1,0 +1,29 @@
+
+<!-- Actual search box -->
+<div class="input-group has-search">
+  <span class="fa fa-search form-control-feedback"></span>
+  <input type="search" value={{searchValue}} class="form-control search rounded" placeholder="Start typing to search" (keyup)="onKey($event)" (search)="onSearch($event)">
+  <span class="input-group-btn input-space">
+    <button type="button" class="signupHeaderButton signupTrigger">Sign up</button>
+  </span>
+  <span class="input-group-btn input-space">
+      <button type="button" class="signupHeaderButton loginTrigger">Log in</button>
+  </span>
+  <span class="input-group-btn input-space">
+      <button type="button" class="more dropdownTrigger btn">...</button>
+  </span>
+</div>
+<!-- Search Suggestions -->
+<div *ngIf="isSearching" class="searchSuggestions">
+    <div class="searchSuggestionAligner">
+      <div class="searchSuggestionContainer">						
+        <div class="suggestTitle">Suggested</div>
+        <ul>
+            <li *ngFor="let result of results" (click)="onResultClicked(result)"><span class="light">{{result.substring}}</span>{{result.string}}</li>
+        </ul>
+      </div>				
+    </div>
+    <div class="suggestGradient"></div>								
+</div>
+
+
