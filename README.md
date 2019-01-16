@@ -2,26 +2,31 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
 
-## Development server
+I chose Angular over React.js because:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I wanted to use the template approach of Angular instead of the using JSX in React.js. 
+I wanted to have css modules and I didnt want to eject React.js app and add the hashing.
+These things will be easier for desingers to work with the HTML/CSS in the future.
+I wanted to use Angular's approach to using services.
+I wanted to use the Angular CLI to generate components..( ok a little lazy ) but it does generate test scripts to build out later. :)
 
-## Code scaffolding
+This project using a modified version of Bootstrap css. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Coding Exercise:
+1. Navigate to https://www.designspiration.net/
+2. Perform a search and notice how suggestions look:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. Make a website that mirrors this functionality. The website should have:
+a. A title at the top
+b. A search bar with the same effects shown
+c. A single row of images underneath (the blue, gray, and blue to purple gradient one) so
+you can see the fade effect
+d. Don’t worry about signup, login, or any other functionality
+4. For the search suggestions, use the following dictionary
+a. Random
+b. Real
+c. Record
+d. Red
+e. Report
+5. It should simulate like you are hitting an API that returns JSON, but doesn’t
+actually build an API or anything.
