@@ -12,6 +12,10 @@ I wanted to use the Angular CLI to generate components..( ok a little lazy ) but
 
 This project using a modified version of Bootstrap css. 
 
+A working live coding exercise can be found here :
+
+https://rubble-app.firebaseapp.com/
+
 Coding Exercise:
 1. Navigate to https://www.designspiration.net/
 2. Perform a search and notice how suggestions look:
